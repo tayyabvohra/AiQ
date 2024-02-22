@@ -1,8 +1,9 @@
 import pandas as pd
 import requests
+import os
 
 def get_weather_updates(location_fictious_address):
-    api_key = 'd7cd1f0eb6f54b95ef100b2d83d6b65c'
+    api_key = os.getenv("api_key")
     weather_data_list = []
     for index, row in location_fictious_address.iterrows():
         lat = row['lat']

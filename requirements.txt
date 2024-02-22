@@ -1,0 +1,5 @@
+pandas==1.4.4
+pymssql==2.2.11
+pyodbc==4.0.34
+Requests==2.31.0
+SQLAlchemy==1.4.39
