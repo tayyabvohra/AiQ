@@ -1,42 +1,26 @@
-Getting Started
-Prerequisites
-Python (version X.X)
-ODBC Driver 17 (optional)
-Installation
-Clone the repository:
+# AiQ
 
-sh
-Copy code
-git clone https://github.com/yourusername/your-repository.git
-Navigate to the project directory:
+## Getting Started
 
-sh
-Copy code
-cd your-repository
-Install dependencies:
+### Prerequisites
 
-sh
-Copy code
-pip install -r requirements.txt
-Configuration
-Set up SQL Server credentials:
+* Python (version 3.9.12)
+* ODBC Driver 17 (optional, only required if you are getting an error)
 
-Open main.py located in the code folder.
-Find the section for SQL Server credentials.
-Add the server name and database name in the appropriate place.
-Save the changes to main.py.
-(Optional) Install ODBC Driver 17:
+### Configuration
+* Set up SQL Server credentials (if applicable):
 
-If encountering ODBC-related errors, download and install ODBC Driver 17 from the provided link.
-Running the App
-Execute the main script:
+* Open main.py located in the code folder.
+* Find the section for SQL Server credentials in the classes folder push_db class.
+* Replace placeholders with your actual server name and database name.
+* Save the changes to push_db.py.
 
-sh
-Copy code
-python code/main.py
-Follow on-screen instructions and monitor console output for any errors.
+### (Optional) Install ODBC Driver 17:
 
-Troubleshooting
-If encountering errors, refer to error messages displayed in the console.
-Check that SQL Server credentials are correctly entered in main.py.
-Verify proper installation and integration of the ODBC Driver 17 if applicable.
+* If encountering ODBC-related errors, download and install ODBC Driver 17 from the provided link.
+
+### Running the App
+* Execute the main script:
+
+```sh
+   python code/main.py
