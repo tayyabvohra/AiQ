@@ -1,0 +1,21 @@
+Description
+This Python script retrieves user data from an API, combines it with order details, generates fictitious addresses based on city names, fetches weather information, and stores the final data in a SQL Server database.
+
+Functionality Breakdown:
+User Data Acquisition:
+
+Parses user data from a specified API and stores it in a Pandas DataFrame.
+Order Details Integration:
+
+Merges the user data DataFrame with a separate DataFrame containing order details.
+Fictitious Address Generation:
+
+Creates a dictionary mapping city names to fictitious addresses.
+Weather Data Retrieval:
+
+Iterates through the combined DataFrame:
+Attempts to fetch weather data for each user's address using a weather API.
+If the address request fails (non-200 status code), uses the city name as a fallback for weather data retrieval.
+Data Persistence:
+
+Pushes the final DataFrame, containing user, order, address, and weather data, to a SQL Server database using the push_db class.
