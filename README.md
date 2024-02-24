@@ -15,6 +15,9 @@
 
 2. **Navigate to the project directory:**
 ```sh
-cd your-repository
+   cd your-repository
 
-3. 
+3.  **Install dependencies:**
+   ```sh
+      pip install -r requirements.txt
+
