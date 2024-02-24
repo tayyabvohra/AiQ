@@ -4,39 +4,24 @@
 
 ### Prerequisites
 
-- Python 3.9.12
-- ODBC Driver 17 (optional)
+* Python (version 3.9.12)
+* ODBC Driver 17 (optional, only required if using specific database connections)
 
-### Installation
+### Configuration
+* Set up SQL Server credentials (if applicable):
 
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/yourusername/your-repository.git
+* Open main.py located in the code folder.
+* Find the section for SQL Server credentials.
+* Replace placeholders with your actual server name and database name.
+* Save the changes to main.py.
 
-2. Navigate to the project directory:
-  ```sh
-    cd your-repository
+### (Optional) Install ODBC Driver 17:
 
-3. Install dependencies:
-    pip install -r requirements.txt
+* If encountering ODBC-related errors, download and install ODBC Driver 17 from the provided link.
 
-###Configuration
-Set up SQL Server credentials:
+### Running the App
+* Execute the main script:
 
-**Open main.py located in the code folder.
-Find the section for SQL Server credentials.
-Add the server name and database name in the appropriate place.
-Save the changes to main.py.
-(Optional) Install ODBC Driver 17:
-**
-If encountering ODBC-related errors, download and install ODBC Driver 17 from the provided link.
-Running the App
-Execute the main script:
-python code/main.py
+```sh
+   python code/main.py
 
-Follow on-screen instructions and monitor console output for any errors.
-
-Troubleshooting
-If encountering errors, refer to error messages displayed in the console.
-Check that SQL Server credentials are correctly entered in main.py.
-Verify proper installation and integration of the ODBC Driver 17 if applicable.
