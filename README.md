@@ -14,6 +14,7 @@
    git clone https://github.com/yourusername/your-repository.git
 
 2. **Navigate to the project directory:**
-sh
+```sh
 cd your-repository
 
+3. 
