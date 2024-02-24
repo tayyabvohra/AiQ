@@ -13,8 +13,8 @@ def main():
     users=get_users_data()
     users_parsed_dict=parse_users_data(users)
     users_df = pd.DataFrame(users_parsed_dict)
-    # file_path = f"Code\csv\AiQ.csv"
-    file_path = f"{current_path}/csv/AiQ.csv" 
+    file_path = f"csv\AiQ.csv"
+    # file_path = f"{current_path}/csv/AiQ.csv" 
     orders_details = pd.read_csv(file_path)
    
 
