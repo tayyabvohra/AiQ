@@ -14,13 +14,14 @@
    git clone https://github.com/yourusername/your-repository.git
 
 2. Navigate to the project directory:
-   cd your-repository
+  ```sh
+    cd your-repository
 
 3. Install dependencies:
     pip install -r requirements.txt
 
-#Configuration
-#Set up SQL Server credentials:
+###Configuration
+Set up SQL Server credentials:
 
 **Open main.py located in the code folder.
 Find the section for SQL Server credentials.
